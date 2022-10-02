@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{ 
+        margin: auto;
+        padding: 0px;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100%;
+        background: #f8f8f8;
+        margin: 20px;
+    }
+    .wrapper {
+        position: relative;
+        width: 1000px;
+        height: 500px;
+        background: #fff;
+        border-radius: 0px;
+        box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    }
+    .transition {
+        border-top: solid 2px green;
+        border-left: solid 2px green;
+        border-right: dashed 2px green;
+        border-bottom: dashed 2px green;
+        border-radius: 10px;
+        float: left;
+        width: 300px;
+        height: 250px;
+        background: #6FAC21;
+        opacity: 0.8;
+        transition: all 2s linear;
+        margin: 50px 50px;
+        text-align: justify;
+    }
+    #transition {
+        color: white;
+        font-size: 15px;
+        text-align: justify;
+        line-height: 16px;
+        transition: all 2s;
+    }
+    .transition:hover {
+        width: 300px;
+        height: 300px;
+        transform: scale(2) rotate(360deg);
+        opacity: 0.8;
+        background: #1EC7E6;
+    }
+</style>
+<body>
+    <div class="wrapper">
+        <div class="transition">
+        <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language. Although most often used to change the style of web pages and user interfaces written in HTML and XHTML, the language can be appied to any kind of XML document, including plain XML, SVG and XUL. Along with HTML and JavaScript, Css is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile application.</p>
+        </div>
+    </div>
+</body>
+</html>
